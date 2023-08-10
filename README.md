@@ -51,4 +51,4 @@ If you have any questions, concerns, or suggestions, you may **NOT** try to reac
 
 Happy coding with Grace language and its compiler library!
 
-[![University Logo](/path/to/university-logo.png)](https://www.university-website.com)
+[![NTUA](/img/ntua.png)](https://ntua.gr/en/)
