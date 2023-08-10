@@ -14,11 +14,36 @@ Grace is a language designed specifically to make it easier for new programmers 
 
 ## Getting Started
 
-To get started with using the Grace Runtime Library, follow these steps:
+### Installation
 
-1. Installations
-2. Including and using the library in your projects
-3. Examples of how to compile Grace programs using the library
+1. Clone the repo:
+  ```bash
+  git clone https://github.com/avtzis/ntua-grace-runtime-lib.git && cd ntua-grace-runtime-lib/
+  ```
+2. Build:
+  ```bash
+  make
+  ```
+3. Move library to your compiler directory:
+  ```bash
+  mv libgrc.a path/to/compilerdir
+  ```
+
+### Usage
+
+Link with `clang`:
+  ```bash
+  clang program.s libgrc.a
+  ```
+
+### Example
+
+```bash
+./grc < program.grc > temp.ll
+llc -o temp.s temp.ll
+clang -o a.out temp.s libgrc.a -no-pie
+rm temp.s temp.ll
+```
 
 ## Documentation
 
