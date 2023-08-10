@@ -5,7 +5,7 @@ AR := ar
 ARFLAGS := -cvq
 
 # Directories
-SRC_DIR := .
+SRC_DIR := ./src
 OBJ_DIR := obj
 
 # Find all .c files in the source directory
