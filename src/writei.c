@@ -1,5 +1,5 @@
 #include <stdio.h>
 
-void writeInteger(long n) {
-  printf("%ld\n", n);
+void writeInteger(long long n) {
+  printf("%lld", n);
 }

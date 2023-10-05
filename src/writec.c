@@ -1,5 +1,5 @@
 #include <stdio.h>
 
 void writeChar(char c) {
-  printf("%c\n", c);
+  printf("%c", c);
 }

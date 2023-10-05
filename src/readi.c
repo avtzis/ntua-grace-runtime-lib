@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-int readInteger() {
-  int res;
-  scanf("%d", &res);
+long long readInteger() {
+  long long res;
+  scanf("%lld", &res);
   return res;
 }
